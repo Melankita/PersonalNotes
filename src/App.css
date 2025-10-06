@@ -1,0 +1,125 @@
+:root {
+  --primary-bg: rgb(249, 219, 189);
+  --card-bg: rgb(255, 165, 171);
+  --accent-color: rgb(218, 98, 125);
+  --delete-bg: rgb(165, 56, 96);
+  --delete-hover-bg: rgb(69, 9, 32);
+  --font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: var(--primary-bg);
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+}
+
+.display {
+  padding: 40px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+}
+
+.button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid var(--accent-color);
+  background-color: var(--card-bg);
+  color: var(--accent-color);
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.add-button {
+  font-size: 1.2rem;
+}
+
+.count-button {
+  background-color: var(--card-bg);
+}
+
+.delete-button {
+  background-color: var(--delete-bg);
+  color: white;
+  border: none;
+}
+
+.delete-button:hover {
+  background-color: var(--delete-hover-bg);
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: var(--card-bg);
+  padding: 20px;
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.image {
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+.note-label {
+  font-weight: bold;
+  color: var(--accent-color);
+  margin-bottom: 5px;
+  display: block;
+}
+
+.note-input {
+  width: 100%;
+  border: 1px solid var(--accent-color);
+  border-radius: 8px;
+  padding: 10px;
+  resize: none;
+  outline: none;
+  font-size: 15px;
+  font-family: var(--font-family);
+}
+
+.note-input:focus {
+  border-color: var(--delete-hover-bg);
+  background-color: #fff;
+  box-shadow: 0 0 5px var(--accent-color);
+}
+
+.card-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.no-notes-message {
+  color: #777;
+  font-size: 1rem;
+  margin-top: 20px;
+}

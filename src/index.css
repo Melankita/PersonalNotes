@@ -1,0 +1,67 @@
+/*.display {
+  padding: 35px;
+  background-color: rgb(249, 219, 189);
+  text-align: center;
+  margin: auto;
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: max-content;
+  height:max-content;
+}
+.button {
+  text-align: center;
+  padding: 10px;
+  font-size:26px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer; 
+  width: 300px;height: 75px;
+  background-color: rgb(249, 219, 189);
+  background-attachment: fixed;
+  margin:10px;
+}
+.card {
+  text-align: center;
+  padding: 10px;
+  font-size: medium;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(255, 165, 171);
+  border: 1px solid rgb(165, 56, 96); /* Fixed border *//*
+  margin: 40px auto;
+  border-radius: 10px; /* Added soft corners *//*
+  width: 700px;
+  height: auto; /* Keeps cards uniform *//*
+}
+
+/* Corrected image scaling properties *//*
+.image {
+  display: block;
+  margin: 10px auto;
+  width: 200px; /* instead of invalid “size” *//*
+  height: auto;
+  padding: 5px;
+  border: 4px dashed rgb(165, 56, 96);
+}
+
+/* Fixed the selector from ".card :hover" to ".card:hover" *//*
+.card:hover {
+  background-color:rgb(165, 56, 96);
+  color: white; /* Added to make text readable *//*
+  transition: 0.3s ease; /* Smooth color change *//*
+}
+
+.textbox {
+  align-self: center;
+  font-size: medium;
+}
+
+/* Cleaned up the container *//*
+.card-container {
+  background-color:rgb(69, 9, 32);
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 900px;
+}
+*/
